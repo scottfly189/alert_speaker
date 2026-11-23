@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>AlertSpeaker</RootNamespace>
+    <AssemblyName>alert_speaker</AssemblyName>
+    <Product>alert_speaker</Product>
+    <AssemblyTitle>alert_speaker - 本机喇叭，一条 HTTP，电脑当刻说话。</AssemblyTitle>
+    <Description>本机常驻的语音播报小服务。向本机 HTTP 发一句中文，电脑就会用通义千问 TTS 把警告念出来。</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>Assets\speak.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="AntdUI" Version="2.4.19" />
+    <PackageReference Include="NAudio" Version="2.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\speak.png" />
+    <EmbeddedResource Include="Assets\speak.ico" />
+    <EmbeddedResource Include="Assets\eye.png" />
+    <EmbeddedResource Include="Assets\eye-close.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\App.json.example">
+      <Link>App.json.example</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

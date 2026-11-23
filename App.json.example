@@ -1,0 +1,6 @@
+{
+  "QwenApiKey": "YOUR_QWEN_API_KEY",
+  "AlertToken": "",
+  "Voice": "longanhuan_v3.1",
+  "StartWithWindows": false
+}

@@ -1,0 +1,13 @@
+App.json
+bin/
+obj/
+.vs/
+*.user
+*.suo
+Temp/
+logs/
+**/App.json
+**/bin/
+**/obj/
+**/Temp/
+**/logs/
