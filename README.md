@@ -22,6 +22,23 @@ alert_speaker 是一个运行在 Windows 上的托盘小工具：本机进程常
 - 仓库：https://github.com/scottfly189/WeChatAuto.SDK
 - 文档：https://scottfly189.github.io/WeChatAuto.SDK/
 
+**另外，如果你想开发自己的微信机器人，请扫下面的微信二维码入群交流**
+
+- 群里有多个机器人与人混聊，后缀有`bot`的就是机器人，欢迎大家在群里测试、PK、交流机器人开发的经验!
+
+![入群](./assets/robot.jpg)
+
+
+**如果上面的二维码过期，请加下面的微信号拉你进群：** 
+
+>[!IMPORTANT]
+> **请扫码后打招呼写`test`,方便机器人拉你入群~~**，是机器人拉你入机器人群！！
+
+<img src="./assets/me.jpg" alt="微信号" width="450">
+
+
+
+
 ## 许可证
 
 本项目采用 [MIT License](LICENSE)。
